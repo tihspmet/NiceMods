@@ -2,7 +2,7 @@
 using Ensage.Common.Menu;
 using Ensage.SDK.Menu;
 
-namespace NiceDarkWillow
+namespace NiceDarkWillow.Menu
 {
     internal class Settings : IDisposable
     {

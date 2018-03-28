@@ -1,6 +1,8 @@
 ﻿using Ensage;
 using Ensage.SDK.Service;
 using Ensage.SDK.Service.Metadata;
+using NiceDarkWillow.Menu;
+using NiceDarkWillow.Modes;
 using System.ComponentModel.Composition;
 
 namespace NiceDarkWillow

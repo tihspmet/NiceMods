@@ -14,7 +14,7 @@ using Ensage.SDK.TargetSelector;
 using log4net;
 using PlaySharp.Toolkit.Logging;
 
-namespace NiceDarkWillow
+namespace NiceDarkWillow.Modes
 {
     internal class ShadowRealmMode : KeyPressOrbwalkingModeAsync
     {

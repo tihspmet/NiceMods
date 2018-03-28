@@ -17,7 +17,7 @@ using log4net;
 using PlaySharp.Toolkit.Logging;
 
 
-namespace NiceDarkWillow
+namespace NiceDarkWillow.Modes
 {
     internal class DisableMode : KeyPressOrbwalkingModeAsync
     {
