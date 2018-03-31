@@ -55,7 +55,6 @@
   <ItemGroup>
     <Compile Include="Modes\DisableMode.cs" />
     <Compile Include="NiceDarkWillowPlugin.cs" />
-    <Compile Include="Modes\NoiseMode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Menu\Settings.cs" />
     <Compile Include="Modes\ShadowRealmMode.cs" />

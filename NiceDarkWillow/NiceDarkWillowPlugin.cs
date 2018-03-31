@@ -14,7 +14,6 @@ namespace NiceDarkWillow
 
         private DisableMode disableMode;
         private ShadowRealmMode shadowRealmMode;
-        private NoiseMode noiseMode;
         private Settings settings;
 
         [ImportingConstructor]
@@ -29,18 +28,15 @@ namespace NiceDarkWillow
 
             disableMode = new DisableMode(context, settings.DisableKey);
             shadowRealmMode = new ShadowRealmMode(context, settings.ShadowRealmKey);
-            noiseMode = new NoiseMode(context, settings.NoiseKey);
 
             context.Orbwalker.RegisterMode(disableMode);
             context.Orbwalker.RegisterMode(shadowRealmMode);
-            context.Orbwalker.RegisterMode(noiseMode);
         }
 
         protected override void OnDeactivate()
         {
             context.Orbwalker.UnregisterMode(disableMode);
             context.Orbwalker.UnregisterMode(shadowRealmMode);
-            context.Orbwalker.UnregisterMode(noiseMode);
 
             settings.Dispose();
         }
