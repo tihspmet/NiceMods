@@ -133,7 +133,7 @@ namespace NiceDarkWillow.Modes
                     await Task.Delay(Nullifier.GetCastDelay(target) + GetLagDelay(), token);
                 }
 
-                Orbwalker.OrbwalkTo(null);
+                Orbwalker.OrbwalkTo(target);
             }
             catch (TaskCanceledException)
             {
